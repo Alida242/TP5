@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>131</y>
+     <width>331</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>club</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>1</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>Ronaldo</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>Madrid</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>Grizou</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>Barça</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>3</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>Neymar</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>Barça</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>Benzema</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>Madrid</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>200</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
