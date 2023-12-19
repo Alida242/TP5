@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QApplication>
 #include <QSqlDatabase>
-#include <QMessageBox>
+#include <QMessageBox>    //inclusion des librairies nécessaires
 #include <QTableView>
 #include <QSqlTableModel>
 
@@ -14,16 +14,16 @@ class Widget;
 }
 QT_END_NAMESPACE
 
-class Widget : public QWidget
+class Widget : public QWidget //déclaration de la classe widget, héritant de Qwidget
 {
     Q_OBJECT
 
 public:
-   explicit Widget(QWidget *parent = 0);
-    ~Widget();
+   explicit Widget(QWidget *parent = 0); //constructeur de type explicite
+    ~Widget(); //Destructeur
 
 private:
     Ui::Widget *ui;
 };
 
-#endif // WIDGET_H
+#endif // WIDGET_H //fin de la déclaration du fichier d'en-tête
